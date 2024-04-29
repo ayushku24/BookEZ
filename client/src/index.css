@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Jost:wght@300&family=Montserrat&family=Radio+Canada&family=Urbanist:wght@200&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* css for small images */
+.smallimg{
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+h1{
+  font-size: 20px!important;
+}
+
+.btn{
+  background-color: black ;
+  color: white;
+  box-shadow: none;
+}
+
+
+/* allbox shadows */
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.bigimg{
+  height: 400px;
+  border-radius: 5px;
+}
+
+/* for dropdowm */
+.dropdown-toggle{
+  border: 0px solid black !important;
+}
+
+
+/* form css */
+input{
+  box-shadow: none;
+  margin-top: 10px;
+  border: 1px solid black !important;
+}
+
+h2{
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.landing{
+  background-color: #000;
+  height:100vh;
+  padding-top: 10px;
+}
+
+.landingbtn{
+  margin-top: 20px;
+}
+
+.landing .col-md-9{
+  border-right: 8px solid white;
+}
